@@ -53,3 +53,27 @@ p{
   z-index: -1;
   pointer-events: none;
 }
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a; /* matches your background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444; /* subtle thumb */
+  border-radius: 6px;
+  border: 2px solid #0a0a0a; /* border for spacing */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+html {
+  scrollbar-color: #444 #0a0a0a;
+  scrollbar-width: thin;
+}

@@ -97,7 +97,7 @@ const Footer = () => {
               </li>
               <li className="flex justify-between text-sm sm:text-base">
                 <span>Shipping:</span>
-                <span className="text-[#FFD700]">FREE</span>
+                <span className="text-[#FFD700]">Rs.50</span>
               </li>
             </ul>
           </div>
@@ -694,7 +694,7 @@ export default function Home() {
                           </div>
                           <div className="flex justify-between text-[#dcd7ba] text-sm sm:text-base">
                             <span>Shipping</span>
-                            <span>50rs.</span>
+                            <span>Rs.50</span>
                           </div>
                           <div className="border-t border-[#FFD700]/20 pt-2 flex justify-between font-bold text-[#FFD700] text-base sm:text-lg">
                             <span>Total</span>

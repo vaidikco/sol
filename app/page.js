@@ -531,7 +531,7 @@ export default function Home() {
                                   +
                                 </button>
                               </div>
-                              <div className="">+ Rs.50 Shipping Charges</div>
+                              <div className="">+ Rs.50 Shipping Charges(per order)</div>
                             </div>
                           </div>
                         </div>

@@ -93,7 +93,7 @@ const Footer = () => {
               </li>
               <li className="flex justify-between text-sm sm:text-base">
                 <span>Price:</span>
-                <span className="text-[#FFD700]">Rs.200</span>
+                <span className="text-[#FFD700]">Rs.650</span>
               </li>
               <li className="flex justify-between text-sm sm:text-base">
                 <span>Shipping:</span>

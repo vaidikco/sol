@@ -756,7 +756,7 @@ export default function Home() {
                       </div>
                       <div className="flex justify-between font-bold text-[#FFD700] pt-2 border-t border-[#FFD700]/20">
                         <span>Total:</span>
-                        <span>Rs.{(650 * formData.quantity).toFixed(2)}</span>
+                        <span>Rs.{(700 * formData.quantity).toFixed(2)}</span>
                       </div>
                     </div>
                   </div>

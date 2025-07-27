@@ -509,7 +509,7 @@ export default function Home() {
                       <div className="bg-[#FFD700]/5 border border-[#FFD700]/20 rounded-xl p-4 sm:p-6">
                         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
                           <div className="w-16 h-20 sm:w-20 sm:h-28 bg-gradient-to-br from-[#2a1810] to-[#1a1005] rounded-lg border-2 border-[#FFD700]/40 flex flex-col justify-center items-center flex-shrink-0">
-                              <img src="image copy.png"></img>
+                              <img src="/image copy.png"></img>
                           </div>
                           <div className="flex-1 text-center sm:text-left">
                             <h4 className="text-lg sm:text-xl font-serif text-[#FFD700] mb-2">Sonnets of Love</h4>

@@ -241,7 +241,7 @@ export default function Home() {
           { name: "📮 ZIP Code", value: formData.zipCode, inline: true },
           { name: "🌍 Country", value: formData.country, inline: true },
           { name: "📚 Quantity", value: formData.quantity.toString(), inline: true },
-          { name: "💰 Total", value: `Rs${(200 * formData.quantity).toFixed(2)}`, inline: true }
+          { name: "💰 Total", value: `Rs${(700 * formData.quantity).toFixed(2)}`, inline: true }
         ],
         timestamp: new Date().toISOString(),
         footer: {

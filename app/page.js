@@ -536,7 +536,7 @@ export default function Home() {
                         </div>
                         <div className="border-t border-[#FFD700]/20 mt-4 pt-4 flex justify-between items-center">
                           <span className="text-[#dcd7ba] text-sm sm:text-base">Total:</span>
-                          <span className="text-xl sm:text-2xl font-bold text-[#FFD700]">Rs.{(650 * formData.quantity).toFixed(2)}</span>
+                          <span className="text-xl sm:text-2xl font-bold text-[#FFD700]">Rs.{(700 * formData.quantity).toFixed(2)}</span>
                         </div>
                       </div>
 
@@ -698,7 +698,7 @@ export default function Home() {
                           </div>
                           <div className="border-t border-[#FFD700]/20 pt-2 flex justify-between font-bold text-[#FFD700] text-base sm:text-lg">
                             <span>Total</span>
-                            <span>Rs.{(650 * formData.quantity).toFixed(2)}</span>
+                            <span>Rs.{(700 * formData.quantity).toFixed(2)}</span>
                           </div>
                         </div>
                       </div>

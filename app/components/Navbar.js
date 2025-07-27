@@ -118,11 +118,7 @@ const Navbar = () => {
                   alt="Sonnets of Love Logo"
                   className="w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 transition-transform duration-300 group-hover:scale-105"
                 />
-                <div className="hidden sm:block">
-                  <h1 className="font-serif text-base sm:text-lg lg:text-xl text-[#FFD700] group-hover:text-[#FFD700]/80 transition-colors duration-300 whitespace-nowrap">
-                    Sonnets of Love
-                  </h1>
-                </div>
+          
               </button>
             </div>
 

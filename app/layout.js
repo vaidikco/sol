@@ -14,7 +14,7 @@ const monteserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "sonnets of love",
+  title: "Sonnets Of Love",
   description: "site by vaidik.co | book by KK",
 };
 

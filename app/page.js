@@ -85,7 +85,7 @@ const Footer = () => {
             <ul className="space-y-3 text-[#dcd7ba]/80">
               <li className="flex justify-between text-sm sm:text-base">
                 <span>Format:</span>
-                <span className="text-[#FFD700]">Paperback</span>
+                <span className="text-[#FFD700]">Hard Cover</span>
               </li>
               <li className="flex justify-between text-sm sm:text-base">
                 <span>Pages:</span>
@@ -531,6 +531,7 @@ export default function Home() {
                                   +
                                 </button>
                               </div>
+                              <div className="">+ Rs.50 Shipping Charges</div>
                             </div>
                           </div>
                         </div>

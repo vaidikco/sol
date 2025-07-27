@@ -694,7 +694,7 @@ export default function Home() {
                             <span>Rs{(650 * formData.quantity).toFixed(2)}</span>
                           </div>
                           <div className="flex justify-between text-[#dcd7ba] text-sm sm:text-base">
-                            <span>Shipping</span>
+                            <span>Shipping(per-order)</span>
                             <span>Rs.50</span>
                           </div>
                           <div className="border-t border-[#FFD700]/20 pt-2 flex justify-between font-bold text-[#FFD700] text-base sm:text-lg">

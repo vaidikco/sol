@@ -1,28 +1,29 @@
-import './globals.css'
-import { Inter, Libre_Baskerville } from 'next/font/google'
+import { Inter, Montserrat } from "next/font/google";
+import "./globals.css";
 
 const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-})
+  variable: "--font-inter",
+  subsets: ["latin"],
+  display: "swap",
+});
 
-const libre = Libre_Baskerville({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  variable: '--font-libre',
-  display: 'swap',
-})
+const monteserrat = Montserrat({
+  variable: "--font-host",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata = {
-  title: 'Create Beyond Limits | vaidik.co',
-  description: 'The greatest web development and AI solutions for your business.',
-}
+  title: "Next.js App",
+  description: "Using Inter (Sans) and Host Grotesk (Serif)",
+};
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${inter.variable} ${libre.variable}`}>
-      <body className="bg-black text-white">{children}</body>
+    <html lang="en">
+      <body className={`${inter.variable} ${monteserrat.variable} antialiased`}>
+        {children}
+      </body>
     </html>
-  )
+  );
 }

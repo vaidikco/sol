@@ -77,3 +77,12 @@ html {
   scrollbar-color: #444 #0a0a0a;
   scrollbar-width: thin;
 }
+body {
+  background: var(--background);
+  color: white;
+  font-family: var(--font-inter), sans-serif; /* Inter by default */
+}
+
+.font-serif {
+  font-family: var(--font-host), serif; /* Host Grotesk */
+}

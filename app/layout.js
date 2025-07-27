@@ -14,8 +14,8 @@ const monteserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Next.js App",
-  description: "Using Inter (Sans) and Host Grotesk (Serif)",
+  title: "sonnets of love",
+  description: "site by vaidik.co | book by KK",
 };
 
 export default function RootLayout({ children }) {

@@ -1,20 +1,44 @@
 {
   "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-40e961111fbb4029.js",
+      "static/chunks/4bd1b696-ad45a0d75f1c7ab5.js",
+      "static/chunks/684-525774770e6565bd.js",
+      "static/chunks/main-app-7207a6e5c4919d63.js",
+      "static/chunks/app/_not-found/page-11cd7bd870aee1dd.js"
+    ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-40e961111fbb4029.js",
+      "static/chunks/4bd1b696-ad45a0d75f1c7ab5.js",
+      "static/chunks/684-525774770e6565bd.js",
+      "static/chunks/main-app-7207a6e5c4919d63.js",
+      "static/css/4858465b515ceeb4.css",
+      "static/chunks/app/layout-b81fc574737747ae.js"
     ],
     "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/webpack-40e961111fbb4029.js",
+      "static/chunks/4bd1b696-ad45a0d75f1c7ab5.js",
+      "static/chunks/684-525774770e6565bd.js",
+      "static/chunks/main-app-7207a6e5c4919d63.js",
+      "static/chunks/app/page-d46640d7a4aa8ed6.js"
     ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+    "/ship/page": [
+      "static/chunks/webpack-40e961111fbb4029.js",
+      "static/chunks/4bd1b696-ad45a0d75f1c7ab5.js",
+      "static/chunks/684-525774770e6565bd.js",
+      "static/chunks/main-app-7207a6e5c4919d63.js",
+      "static/chunks/118-79d71a988f112c52.js",
+      "static/chunks/393-028c170fc13a356e.js",
+      "static/chunks/app/ship/page-c550a5f09f1296cf.js"
+    ],
+    "/vase/page": [
+      "static/chunks/webpack-40e961111fbb4029.js",
+      "static/chunks/4bd1b696-ad45a0d75f1c7ab5.js",
+      "static/chunks/684-525774770e6565bd.js",
+      "static/chunks/main-app-7207a6e5c4919d63.js",
+      "static/chunks/118-79d71a988f112c52.js",
+      "static/chunks/393-028c170fc13a356e.js",
+      "static/chunks/app/vase/page-9fbfc5c4982d75e5.js"
     ]
   }
 }

@@ -516,7 +516,7 @@ export default function Home() {
                             <h4 className="text-lg sm:text-xl font-serif text-[#FFD700] mb-2">Sonnets of Love</h4>
                             <p className="text-[#dcd7ba]/80 text-sm mb-3">A Literary Collection - 74 Pages</p>
                             <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-4">
-                              <span className="text-xl sm:text-2xl font-bold text-[#FFD700]">Rs.200</span>
+                              <span className="text-xl sm:text-2xl font-bold text-[#FFD700]">Rs.650</span>
                               <div className="flex items-center gap-2">
                                 <button 
                                   onClick={() => setFormData(prev => ({ ...prev, quantity: Math.max(1, prev.quantity - 1) }))}
@@ -537,7 +537,7 @@ export default function Home() {
                         </div>
                         <div className="border-t border-[#FFD700]/20 mt-4 pt-4 flex justify-between items-center">
                           <span className="text-[#dcd7ba] text-sm sm:text-base">Total:</span>
-                          <span className="text-xl sm:text-2xl font-bold text-[#FFD700]">${(200 * formData.quantity).toFixed(2)}</span>
+                          <span className="text-xl sm:text-2xl font-bold text-[#FFD700]">${(650 * formData.quantity).toFixed(2)}</span>
                         </div>
                       </div>
 
@@ -691,15 +691,15 @@ export default function Home() {
                         <div className="space-y-2">
                           <div className="flex justify-between text-[#dcd7ba] text-sm sm:text-base">
                             <span>Sonnets of Love × {formData.quantity}</span>
-                            <span>Rs{(200 * formData.quantity).toFixed(2)}</span>
+                            <span>Rs{(650 * formData.quantity).toFixed(2)}</span>
                           </div>
                           <div className="flex justify-between text-[#dcd7ba] text-sm sm:text-base">
                             <span>Shipping</span>
-                            <span>FREE</span>
+                            <span>50rs.</span>
                           </div>
                           <div className="border-t border-[#FFD700]/20 pt-2 flex justify-between font-bold text-[#FFD700] text-base sm:text-lg">
                             <span>Total</span>
-                            <span>Rs.{(200 * formData.quantity).toFixed(2)}</span>
+                            <span>Rs.{(650 * formData.quantity).toFixed(2)}</span>
                           </div>
                         </div>
                       </div>
@@ -756,7 +756,7 @@ export default function Home() {
                       </div>
                       <div className="flex justify-between font-bold text-[#FFD700] pt-2 border-t border-[#FFD700]/20">
                         <span>Total:</span>
-                        <span>Rs.{(200 * formData.quantity).toFixed(2)}</span>
+                        <span>Rs.{(650 * formData.quantity).toFixed(2)}</span>
                       </div>
                     </div>
                   </div>

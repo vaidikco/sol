@@ -1,3 +1,4 @@
+"use client"
 import { useState, useEffect } from "react";
 import { Instagram, BookOpen, Heart, Star, ExternalLink, Quote } from "lucide-react";
 

@@ -10,7 +10,7 @@ const ProductGallery = () => {
   // Generate image paths for 23 images
   const images = Array.from({ length: 23 }, (_, i) => ({
     id: i + 1,
-    src: `/img${i + 1} (${i < 9 ? 1 : 2}).jpeg`, // First 9 images use (1), rest use (2)
+    src: `/img1.jpeg`, // First 9 images use (1), rest use (2)
     alt: `Sonnets of Love - Product Image ${i + 1}`,
     title: i === 0 ? 'Cover Design' : 
            i === 1 ? 'Back Cover' : 
@@ -100,13 +100,16 @@ const ProductGallery = () => {
           <h2 className="font-serif text-5xl lg:text-6xl text-[#FFD700] mb-6 leading-tight">
             <span className="block">INSIDE</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] via-[#fff8dc] to-[#a68d00]">
-              THE BOOK
+              THE PRERELEASE HAMPER
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#FFD700] to-[#a68d00] mx-auto mb-6"></div>
           <p className="text-lg text-[#dcd7ba]/80 max-w-2xl mx-auto leading-relaxed">
-            Explore the beautiful design and elegant typography of Sonnets of Love. 
-            Each page is carefully crafted to enhance your reading experience.
+            Explore the beautiful craftsmanship of the Pre-Release hamper of SONNETS OF LOVE. Each element inside the box is bound to give uou a luxurious reading experience.
+            1x SONNETS OF LOVE SIGNED COPY (Hardcover)
+1x Attar bottle
+2x Bookmarks
+2x Wax candles
           </p>
         </div>
 

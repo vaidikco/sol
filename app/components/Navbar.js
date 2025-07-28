@@ -25,10 +25,7 @@ const Navbar = () => {
       }
     } else if (section === "author") {
       // Redirect to Instagram
-      const element = document.getElementById("about-author");
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
+      window.open("https://sonnetsoflove.shop/about", "_blank", "noopener,noreferrer");
     } else if (section === "purchase") {
       // Redirect to purchase section
       const element = document.getElementById("purchase");

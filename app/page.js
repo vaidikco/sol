@@ -462,7 +462,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ABOUT AUTHOR SECTION - Placeholder */
+      {/* ABOUT AUTHOR SECTION - Placeholder */}
       <AboutAuthor></AboutAuthor>
 
       {/* BUY NOW SECTION */}

@@ -28,7 +28,7 @@ const AboutAuthor = () => {
   }, []);
 
   return (
-    <section id="about-author" className="min-h-screen flex justify-center items-center px-4 sm:px-6 py-20">
+    <section id="about-author" className="min-h-screen flex justify-center items-center px-4 sm:px-6 py-20 bg-[]">
       <div className="w-full sm:w-[90%] lg:w-[82%] max-w-6xl">
         <div
           className={`relative bg-gradient-to-br from-[#1a3008]/60 to-[#0e1a05]/60 backdrop-blur-xl border border-[#FFD700]/30 shadow-2xl rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-10 transition-all duration-1000 ${

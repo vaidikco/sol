@@ -463,7 +463,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT AUTHOR SECTION - Placeholder */}
-      <AboutAuthor></AboutAuthor>
+  
 
       {/* BUY NOW SECTION */}
       <section id="purchase" className="min-h-screen flex justify-center items-center px-4 sm:px-6 py-20">

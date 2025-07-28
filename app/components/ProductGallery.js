@@ -10,7 +10,7 @@ const ProductGallery = () => {
   // Generate image paths for 23 images
   const images = Array.from({ length: 23 }, (_, i) => ({
     id: i + 1,
-    src: `/img1.jpeg`, // First 9 images use (1), rest use (2)
+    src: `/kk.jpeg`, // First 9 images use (1), rest use (2)
     alt: `Sonnets of Love - Product Image ${i + 1}`,
     title: i === 0 ? 'Cover Design' : 
            i === 1 ? 'Back Cover' : 

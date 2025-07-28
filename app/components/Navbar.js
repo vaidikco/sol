@@ -19,10 +19,7 @@ const Navbar = () => {
   const handleNavClick = (section) => {
     if (section === "product") {
       // Redirect to hero/landing section
-      const element = document.getElementById("home");
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
+      window.open("https://sonnetsoflove.shop/", "_blank", "noopener,noreferrer");
     } else if (section === "author") {
       // Redirect to Instagram
       window.open("https://sonnetsoflove.shop/about", "_blank", "noopener,noreferrer");

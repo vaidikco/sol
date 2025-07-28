@@ -4,6 +4,7 @@ import DotGrid from "./components/DotGrid";
 import { useState, useEffect } from "react";
 import { User, MapPin, Phone, Mail, CreditCard, Check, ArrowLeft, Send, ExternalLink, Heart, BookOpen, Star } from "lucide-react";
 import AboutAuthor from "./components/AboutAuthor";
+import ProductGallery from "./components/ProductGallery";
 
 const skillsData = [/* your skillsData as before */];
 
@@ -463,7 +464,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT AUTHOR SECTION - Placeholder */}
-  
+      <ProductGallery></ProductGallery>
 
       {/* BUY NOW SECTION */}
       <section id="purchase" className="min-h-screen flex justify-center items-center px-4 sm:px-6 py-20">

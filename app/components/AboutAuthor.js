@@ -141,7 +141,7 @@ const AboutAuthor = () => {
                     These sonnets are born from that sacred space where hope and heartbreak dance together."
                   </blockquote>
                   <div className="text-right mt-3">
-                    <cite className="text-[#FFD700] font-serif not-italic">— KK</cite>
+                    <cite className="text-[#FFD700] font-serif not-italic">— K<span className="text-2xl">K</span></cite>
                   </div>
                 </div>
 

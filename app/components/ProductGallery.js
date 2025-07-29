@@ -202,19 +202,25 @@ const ProductGallery = () => {
             isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
-          <div className="overflow-hidden rounded-2xl shadow-lg border border-[#FFD700]/20 backdrop-blur-md bg-white/5 hover:scale-105 transform transition duration-300">
-            <video
-              src="/view.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="w-full h-60 object-cover"
-            />
-          </div>
-          <p className="text-center text-[#dcd7ba]/70 text-sm mt-4 italic">
-            A cinematic preview of the Sonnets of Love hamper
-          </p>
+          <div
+        className={`relative max-w-xs mx-auto my-20 transition-all duration-1000 delay-500 ${
+          isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+        }`}
+      >
+        <div className="overflow-hidden rounded-2xl shadow-lg border border-[#FFD700]/20 backdrop-blur-md bg-white/5 hover:scale-105 transform transition duration-300">
+          <video
+            src="/view.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="w-full aspect-[3/4] object-cover"
+          />
+        </div>
+        <p className="text-center text-[#dcd7ba]/70 text-sm mt-4 italic">
+          A cinematic preview of the Sonnets of Love hamper
+        </p>
+      </div>
         </div>
 
         {/* Call to Action */}

@@ -100,7 +100,7 @@ const ProductGallery = () => {
           <h2 className="font-serif text-5xl lg:text-6xl text-[#FFD700] mb-6 leading-tight">
             <span className="block">INSIDE</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] via-[#fff8dc] to-[#a68d00]">
-              THE BOX
+              THE PRE-RELEASE HAMPER
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#FFD700] to-[#a68d00] mx-auto mb-6"></div>

@@ -17,7 +17,7 @@ const ProductGallery = () => {
            i === 2 ? ' ' : 
            i < 8 ? ` ` : 
            i < 15 ? ' ' : 
-           ''
+           ' '
   }));
 
   useEffect(() => {
@@ -197,6 +197,25 @@ const ProductGallery = () => {
             ))}
           </div>
         </div>
+        <div
+          className={`relative max-w-4xl mx-auto my-20 transition-all duration-1000 delay-500 ${
+            isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+          }`}
+        >
+          <div className="aspect-video rounded-2xl overflow-hidden shadow-xl border border-[#FFD700]/30 bg-black/20 backdrop-blur-md">
+            <video
+              src="/view.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <p className="text-center text-[#dcd7ba]/70 text-sm mt-4 italic">
+            A cinematic preview of the Sonnets of Love hamper
+          </p>
+        </div>
 
         {/* Call to Action */}
         <div
@@ -214,14 +233,14 @@ const ProductGallery = () => {
               Experience the full beauty of these sonnets in person. Premium quality printing, 
               elegant design, and timeless poetry await.
             </p>
-            <button className="group bg-gradient-to-r from-[#FFD700] to-[#a68d00] text-black px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#FFD700]/30 transition-all duration-300 transform hover:scale-105">
+            <a href='#purchase'><button className="group bg-gradient-to-r from-[#FFD700] to-[#a68d00] text-black px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#FFD700]/30 transition-all duration-300 transform hover:scale-105">
               <span className="flex items-center justify-center gap-2">
                 Order Now - Rs.699
                 <span className="group-hover:translate-x-1 transition-transform duration-300">
                   →
                 </span>
               </span>
-            </button>
+            </button></a>
           </div>
         </div>
       </div>

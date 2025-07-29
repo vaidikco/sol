@@ -404,7 +404,7 @@ export default function Home() {
                     </span>
                   </button>
                   <button 
-                    onClick={() => window.location.href = 'https://www.instagram.com/sanctuaryofkk'}
+                    onClick={() => window.location.href = 'https://sonnetsoflove.shop/about'}
                     className="border-2 border-[#FFD700]/50 text-[#FFD700] px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium text-sm sm:text-base hover:bg-[#FFD700]/10 hover:border-[#FFD700] transition-all duration-300 backdrop-blur-sm"
                   >
                     About Author

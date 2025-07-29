@@ -100,13 +100,16 @@ const ProductGallery = () => {
           <h2 className="font-serif text-5xl lg:text-6xl text-[#FFD700] mb-6 leading-tight">
             <span className="block">INSIDE</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] via-[#fff8dc] to-[#a68d00]">
-              THE BOOK
+              THE BOX
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#FFD700] to-[#a68d00] mx-auto mb-6"></div>
           <p className="text-lg text-[#dcd7ba]/80 max-w-2xl mx-auto leading-relaxed">
-            Explore the beautiful design and elegant typography of Sonnets of Love. 
-            Each page is carefully crafted to enhance your reading experience.
+            Explore the beautiful craftsmanship of the Pre-Release hamper of SONNETS OF LOVE. Each element inside the box is bound to give uou a luxurious reading.
+            1x SONNETS OF LOVE SIGNED COPY (Hardcover)
+            1x Attar bottle
+            2x Bookmarks
+            2x Wax candles
           </p>
         </div>
 
@@ -207,7 +210,7 @@ const ProductGallery = () => {
             </p>
             <button className="group bg-gradient-to-r from-[#FFD700] to-[#a68d00] text-black px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#FFD700]/30 transition-all duration-300 transform hover:scale-105">
               <span className="flex items-center justify-center gap-2">
-                Order Now - Rs.650
+                Order Now - Rs.700
                 <span className="group-hover:translate-x-1 transition-transform duration-300">
                   →
                 </span>

@@ -12,11 +12,11 @@ const ProductGallery = () => {
     id: i + 1,
     src: `/img${i + 1}.jpeg`,
     alt: `Sonnets of Love - Product Image ${i + 1}`,
-    title: i === 0 ? 'Cover Design' : 
-           i === 1 ? 'Back Cover' : 
-           i === 2 ? 'Inside Pages' : 
-           i < 8 ? `Page ${i - 2}` : 
-           i < 15 ? 'Interior Design' : 
+    title: i === 0 ? ' ' : 
+           i === 1 ? ' ' : 
+           i === 2 ? ' ' : 
+           i < 8 ? ` ` : 
+           i < 15 ? ' ' : 
            'Product Details'
   }));
 
@@ -207,7 +207,7 @@ const ProductGallery = () => {
           <div className="bg-gradient-to-br from-[#1a3008]/60 to-[#0e1a05]/60 backdrop-blur-xl border border-[#FFD700]/30 rounded-3xl p-8 lg:p-12 max-w-2xl mx-auto">
             <div className="flex justify-center items-center gap-4 mb-6">
               <Heart size={24} className="text-[#FFD700]" />
-              <h3 className="font-serif text-2xl lg:text-3xl text-[#FFD700]">Ready to Own Your Copy?</h3>
+              <a href='purchase'><h3 className="font-serif text-2xl lg:text-3xl text-[#FFD700]">Ready to Own Your Copy?</h3></a>
               <Heart size={24} className="text-[#FFD700]" />
             </div>
             <p className="text-[#dcd7ba]/80 text-lg mb-8 leading-relaxed">
@@ -216,7 +216,7 @@ const ProductGallery = () => {
             </p>
             <button className="group bg-gradient-to-r from-[#FFD700] to-[#a68d00] text-black px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#FFD700]/30 transition-all duration-300 transform hover:scale-105">
               <span className="flex items-center justify-center gap-2">
-                Order Now - Rs.700
+                Order Now - Rs.699
                 <span className="group-hover:translate-x-1 transition-transform duration-300">
                   →
                 </span>

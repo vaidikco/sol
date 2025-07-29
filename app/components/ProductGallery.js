@@ -10,7 +10,7 @@ const ProductGallery = () => {
   // Generate image paths for 23 images
   const images = Array.from({ length: 23 }, (_, i) => ({
     id: i + 1,
-    src: `/kk.jpeg`, // First 9 images use (1), rest use (2)
+    src: `/img${i + 1} (${i < 9 ? 1 : 2}).jpg`, // First 9 images use (1), rest use (2)
     alt: `Sonnets of Love - Product Image ${i + 1}`,
     title: i === 0 ? 'Cover Design' : 
            i === 1 ? 'Back Cover' : 
@@ -100,16 +100,13 @@ const ProductGallery = () => {
           <h2 className="font-serif text-5xl lg:text-6xl text-[#FFD700] mb-6 leading-tight">
             <span className="block">INSIDE</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] via-[#fff8dc] to-[#a68d00]">
-              THE PRERELEASE HAMPER
+              THE BOOK
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#FFD700] to-[#a68d00] mx-auto mb-6"></div>
           <p className="text-lg text-[#dcd7ba]/80 max-w-2xl mx-auto leading-relaxed">
-            Explore the beautiful craftsmanship of the Pre-Release hamper of SONNETS OF LOVE. Each element inside the box is bound to give uou a luxurious reading experience.
-            1x SONNETS OF LOVE SIGNED COPY (Hardcover)
-1x Attar bottle
-2x Bookmarks
-2x Wax candles
+            Explore the beautiful design and elegant typography of Sonnets of Love. 
+            Each page is carefully crafted to enhance your reading experience.
           </p>
         </div>
 
@@ -147,8 +144,20 @@ const ProductGallery = () => {
                 onClick={() => openLightbox(image, index)}
                 style={{ animationDelay: `${index * 50}ms` }}
               >
-                {/* Image placeholder with golden border effect */}
-                <div className="absolute inset-0 bg-gradient-to-br from-[#2a1810] to-[#1a1005] flex items-center justify-center">
+                {/* Actual Image */}
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="absolute inset-0 w-full h-full object-cover"
+                  onError={(e) => {
+                    // Fallback if image doesn't load
+                    e.target.style.display = 'none';
+                    e.target.nextSibling.style.display = 'flex';
+                  }}
+                />
+                
+                {/* Fallback placeholder (hidden by default) */}
+                <div className="absolute inset-0 bg-gradient-to-br from-[#2a1810] to-[#1a1005] flex items-center justify-center" style={{display: 'none'}}>
                   <div className="text-center">
                     <BookOpen size={48} className="text-[#FFD700]/40 mx-auto mb-4" />
                     <div className="text-[#FFD700]/60 font-serif text-lg mb-2">{image.title}</div>
@@ -198,7 +207,7 @@ const ProductGallery = () => {
             </p>
             <button className="group bg-gradient-to-r from-[#FFD700] to-[#a68d00] text-black px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#FFD700]/30 transition-all duration-300 transform hover:scale-105">
               <span className="flex items-center justify-center gap-2">
-                Order Now - Rs.700
+                Order Now - Rs.650
                 <span className="group-hover:translate-x-1 transition-transform duration-300">
                   →
                 </span>
@@ -236,21 +245,41 @@ const ProductGallery = () => {
 
             {/* Image container */}
             <div className="bg-gradient-to-br from-[#1a3008]/80 to-[#0e1a05]/80 backdrop-blur-xl border border-[#FFD700]/30 rounded-2xl overflow-hidden">
-              <div className="aspect-[3/4] bg-gradient-to-br from-[#2a1810] to-[#1a1005] flex items-center justify-center">
-                <div className="text-center p-8">
-                  <BookOpen size={80} className="text-[#FFD700]/40 mx-auto mb-6" />
-                  <h3 className="text-[#FFD700] font-serif text-3xl mb-4">{selectedImage.title}</h3>
-                  <p className="text-[#dcd7ba]/60 text-lg mb-6">Image {selectedImage.id} of 23</p>
-                  <div className="flex justify-center items-center gap-6">
-                    <div className="flex items-center gap-2 text-[#FFD700]/80">
-                      <Star size={20} />
-                      <span>Premium Quality</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-[#FFD700]/80">
-                      <Heart size={20} />
-                      <span>Elegant Design</span>
+              <div className="aspect-[3/4] relative">
+                <img
+                  src={selectedImage.src}
+                  alt={selectedImage.alt}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    // Fallback if image doesn't load
+                    e.target.style.display = 'none';
+                    e.target.nextSibling.style.display = 'flex';
+                  }}
+                />
+                
+                {/* Fallback placeholder for lightbox */}
+                <div className="absolute inset-0 bg-gradient-to-br from-[#2a1810] to-[#1a1005] flex items-center justify-center" style={{display: 'none'}}>
+                  <div className="text-center p-8">
+                    <BookOpen size={80} className="text-[#FFD700]/40 mx-auto mb-6" />
+                    <h3 className="text-[#FFD700] font-serif text-3xl mb-4">{selectedImage.title}</h3>
+                    <p className="text-[#dcd7ba]/60 text-lg mb-6">Image {selectedImage.id} of 23</p>
+                    <div className="flex justify-center items-center gap-6">
+                      <div className="flex items-center gap-2 text-[#FFD700]/80">
+                        <Star size={20} />
+                        <span>Premium Quality</span>
+                      </div>
+                      <div className="flex items-center gap-2 text-[#FFD700]/80">
+                        <Heart size={20} />
+                        <span>Elegant Design</span>
+                      </div>
                     </div>
                   </div>
+                </div>
+                
+                {/* Image info overlay */}
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <h3 className="text-[#FFD700] font-serif text-xl mb-2">{selectedImage.title}</h3>
+                  <p className="text-[#dcd7ba]/80 text-sm">Image {selectedImage.id} of 23</p>
                 </div>
               </div>
             </div>

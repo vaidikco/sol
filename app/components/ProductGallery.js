@@ -105,11 +105,8 @@ const ProductGallery = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#FFD700] to-[#a68d00] mx-auto mb-6"></div>
           <p className="text-lg text-[#dcd7ba]/80 max-w-2xl mx-auto leading-relaxed">
-            Explore the beautiful craftsmanship of the Pre-Release hamper of SONNETS OF LOVE. Each element inside the box is bound to give uou a luxurious reading.
-            1x SONNETS OF LOVE SIGNED COPY (Hardcover)
-            1x Attar bottle
-            2x Bookmarks
-            2x Wax candles
+            Explore the beautiful craftsmanship of the Pre-Release hamper of SONNETS OF LOVE. 
+            Each element inside the box is bound to give uou a luxurious reading.
           </p>
         </div>
 
@@ -124,13 +121,22 @@ const ProductGallery = () => {
             <div className="text-sm text-[#dcd7ba]/70">Items</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-[#FFD700] mb-2">23</div>
-            <div className="text-sm text-[#dcd7ba]/70">Photos</div>
-          </div>
-          <div className="text-center">
             <div className="text-3xl font-bold text-[#FFD700] mb-2">1</div>
             <div className="text-sm text-[#dcd7ba]/70">Signed Copy</div>
           </div>
+          <div className="text-center">
+            <div className="text-3xl font-bold text-[#FFD700] mb-2">1</div>
+            <div className="text-sm text-[#dcd7ba]/70">Attar Bottle</div>
+          </div>
+          <div className="text-center">
+            <div className="text-3xl font-bold text-[#FFD700] mb-2">2</div>
+            <div className="text-sm text-[#dcd7ba]/70">Bookmarks</div>
+          </div>
+          <div className="text-center">
+            <div className="text-3xl font-bold text-[#FFD700] mb-2">2</div>
+            <div className="text-sm text-[#dcd7ba]/70">Wax Candles</div>
+          </div>
+          
         </div>
 
         {/* Gallery Grid */}

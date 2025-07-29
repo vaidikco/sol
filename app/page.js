@@ -114,8 +114,8 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           <div className="text-[#dcd7ba]/60 text-xs sm:text-sm text-center sm:text-left">
-            © 2024 Sonnets of Love. All rights reserved.
-            <a href="/privacy">Privacy Policy</a>
+            © 2024 Sonnets of L. ove. All rights reserved.
+            <a href="/privacy" className="underline cursor-pointer" >Privacy Policy</a>
           </div>
           
           <div className="flex items-center gap-2 text-xs sm:text-sm">

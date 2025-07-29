@@ -202,14 +202,14 @@ const ProductGallery = () => {
             isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
-          <div className="aspect-video rounded-2xl overflow-hidden shadow-xl border border-[#FFD700]/30 bg-black/20 backdrop-blur-md">
+          <div className="overflow-hidden rounded-2xl shadow-lg border border-[#FFD700]/20 backdrop-blur-md bg-white/5 hover:scale-105 transform transition duration-300">
             <video
               src="/view.mp4"
               autoPlay
               muted
               loop
               playsInline
-              className="w-full h-full object-cover"
+              className="w-full h-60 object-cover"
             />
           </div>
           <p className="text-center text-[#dcd7ba]/70 text-sm mt-4 italic">

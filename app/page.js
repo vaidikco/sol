@@ -82,27 +82,7 @@ const Footer = () => {
           </div>
 
           {/* Book Info */}
-          <div className="col-span-1">
-            <h4 className="font-semibold text-lg text-[#FFD700] mb-4">Book Details</h4>
-            <ul className="space-y-3 text-[#dcd7ba]/80">
-              <li className="flex justify-between text-sm sm:text-base">
-                <span>Format:</span>
-                <span className="text-[#FFD700]">Hard Cover</span>
-              </li>
-              <li className="flex justify-between text-sm sm:text-base">
-                <span>Pages:</span>
-                <span className="text-[#FFD700]">74</span>
-              </li>
-              <li className="flex justify-between text-sm sm:text-base">
-                <span>Price:</span>
-                <span className="text-[#FFD700]">Rs.650</span>
-              </li>
-              <li className="flex justify-between text-sm sm:text-base">
-                <span>Shipping:</span>
-                <span className="text-[#FFD700]">Rs.50</span>
-              </li>
-            </ul>
-          </div>
+          
 
           {/* Contact & Features */}
           <div className="col-span-1">
@@ -135,6 +115,7 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           <div className="text-[#dcd7ba]/60 text-xs sm:text-sm text-center sm:text-left">
             © 2024 Sonnets of Love. All rights reserved.
+            <a href="/privacy">Privacy Policy</a>
           </div>
           
           <div className="flex items-center gap-2 text-xs sm:text-sm">

@@ -495,7 +495,7 @@ export default function Home() {
                               <img src="/image copy.png"></img>
                           </div>
                           <div className="flex-1 text-center sm:text-left">
-                            <h4 className="text-lg sm:text-xl font-serif text-[#FFD700] mb-2">Sonnets of Love</h4>
+                            <h4 className="text-lg sm:text-xl font-serif text-[#FFD700] mb-2">Sonnets of Love - Prerelease Hamper</h4>
                             <p className="text-[#dcd7ba]/80 text-sm mb-3">A Literary Collection - 74 Pages</p>
                             <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-4">
                               <span className="text-xl sm:text-2xl font-bold text-[#FFD700]">Rs.649</span>

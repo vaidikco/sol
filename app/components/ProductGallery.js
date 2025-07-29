@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState, useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight, ZoomIn, Heart, BookOpen, Star } from 'lucide-react';
 
@@ -117,16 +117,16 @@ const ProductGallery = () => {
           }`}
         >
           <div className="text-center">
+            <div className="text-3xl font-bold text-[#FFD700] mb-2">6</div>
+            <div className="text-sm text-[#dcd7ba]/70">Items</div>
+          </div>
+          <div className="text-center">
             <div className="text-3xl font-bold text-[#FFD700] mb-2">23</div>
             <div className="text-sm text-[#dcd7ba]/70">Photos</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-[#FFD700] mb-2">74</div>
-            <div className="text-sm text-[#dcd7ba]/70">Pages</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-[#FFD700] mb-2">11</div>
-            <div className="text-sm text-[#dcd7ba]/70">Sonnets</div>
+            <div className="text-3xl font-bold text-[#FFD700] mb-2">1</div>
+            <div className="text-sm text-[#dcd7ba]/70">Signed Copy</div>
           </div>
         </div>
 
